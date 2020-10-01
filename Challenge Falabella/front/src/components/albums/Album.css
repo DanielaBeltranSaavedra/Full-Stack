@@ -1,0 +1,53 @@
+*{
+	margin: 0px;
+	padding: 0px;
+    list-style: none;  
+    border-radius: 3px;  
+}
+.clearfix{
+	float: none;
+	clear: both;
+}
+.container{
+	position: relative;
+	top: 0px;
+	width: 90%;
+	height: 520px !important;
+	margin-bottom: 30px;
+	background: #29272762;
+}
+.container .list-album{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.container .list-album li{
+	margin-right: 60px;
+	margin-bottom: -20px;
+	margin-top: 30px;
+	list-style: none;
+}
+.container .list-album p{
+	color: white;
+	list-style: none;
+}
+.container .list-album li img{
+	position: relative;
+	width: 250px;
+	height: 150px;
+}
+.container .list-album .album-description{
+	margin-bottom: 10px;
+	margin-top: -5px;
+    height: 70px;
+	background-color: #5c5b5b36;
+}
+.container .list-album .album-description .title{
+	padding-left: 10px;
+	font-size: 20px;
+}
+.container .list-album .album-description .author{
+	padding-left: 10px;
+	margin-top: 5px;
+	font-size: 15px;
+}

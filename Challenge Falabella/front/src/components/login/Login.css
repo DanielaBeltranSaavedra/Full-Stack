@@ -1,0 +1,37 @@
+*{
+	margin: 0px;
+	padding: 0px;
+    list-style: none;  
+    border-radius: 3px; 
+}
+.clearfix{
+	float: none;
+	clear: both;
+}
+#global{
+    width: 65%;
+	margin:0px auto;
+	margin-top: 30px;
+	padding: 50px;
+	margin-left: 35%;	
+}
+#global img{
+	color: white;
+	font-size: 6em;
+    margin-right: 20px;
+	width: 287px;
+    margin-left: 23px;
+    justify-content: center;
+}
+.login{
+	background: #77ca17;
+	padding: 10px;
+	font-weight: bold;
+	border: 1px solid #77ca17;
+	font-size: 15px;
+	border-radius: 30PX;
+	color: whitesmoke;
+	cursor: pointer;
+	margin-left: -198px;
+	text-decoration: none;
+}
